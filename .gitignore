@@ -1,0 +1,28 @@
+# Maven / Gradle
+target/
+build/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment & credentials
+.env
+application.properties
+application.yml
+
+# Java / class files
+*.class
+
+# Generated jars/wars
+*.jar
+*.war
+*.ear
