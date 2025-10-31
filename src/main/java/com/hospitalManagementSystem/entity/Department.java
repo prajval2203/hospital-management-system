@@ -1,4 +1,4 @@
-package com.codingshuttle.youtube.hospitalManagementSystem.entity;
+package com.hospitalManagementSystem.entity;
 
 
 import jakarta.persistence.*;

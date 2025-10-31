@@ -1,4 +1,4 @@
-package com.codingshuttle.youtube.hospitalManagementSystem;
+package com.hospitalManagementSystem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

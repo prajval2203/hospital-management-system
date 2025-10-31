@@ -1,7 +1,7 @@
-package com.codingshuttle.youtube.hospitalManagementSystem.dto;
+package com.hospitalManagementSystem.dto;
 
 
-import com.codingshuttle.youtube.hospitalManagementSystem.entity.type.BloodGroupType;
+import com.hospitalManagementSystem.entity.type.BloodGroupType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

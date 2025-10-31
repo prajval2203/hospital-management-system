@@ -1,18 +1,13 @@
-package com.codingshuttle.youtube.hospitalManagementSystem;
+package com.hospitalManagementSystem;
 
 
-import com.codingshuttle.youtube.hospitalManagementSystem.entity.Patient;
-import com.codingshuttle.youtube.hospitalManagementSystem.repository.PatientRepository;
-import com.codingshuttle.youtube.hospitalManagementSystem.service.PatientService;
-import org.hibernate.query.Page;
+import com.hospitalManagementSystem.entity.Patient;
+import com.hospitalManagementSystem.repository.PatientRepository;
+import com.hospitalManagementSystem.service.PatientService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.PageRequest;
 
-import java.awt.print.Pageable;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.List;
 
 @SpringBootTest

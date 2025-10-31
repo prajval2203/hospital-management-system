@@ -1,11 +1,11 @@
-package com.codingshuttle.youtube.hospitalManagementSystem.service;
+package com.hospitalManagementSystem.service;
 
-import com.codingshuttle.youtube.hospitalManagementSystem.entity.Appointment;
-import com.codingshuttle.youtube.hospitalManagementSystem.entity.Doctor;
-import com.codingshuttle.youtube.hospitalManagementSystem.entity.Patient;
-import com.codingshuttle.youtube.hospitalManagementSystem.repository.AppointmentRepository;
-import com.codingshuttle.youtube.hospitalManagementSystem.repository.DoctorRepository;
-import com.codingshuttle.youtube.hospitalManagementSystem.repository.PatientRepository;
+import com.hospitalManagementSystem.entity.Appointment;
+import com.hospitalManagementSystem.entity.Doctor;
+import com.hospitalManagementSystem.entity.Patient;
+import com.hospitalManagementSystem.repository.AppointmentRepository;
+import com.hospitalManagementSystem.repository.DoctorRepository;
+import com.hospitalManagementSystem.repository.PatientRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

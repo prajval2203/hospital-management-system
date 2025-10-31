@@ -1,10 +1,10 @@
-package com.codingshuttle.youtube.hospitalManagementSystem.service;
+package com.hospitalManagementSystem.service;
 
 
-import com.codingshuttle.youtube.hospitalManagementSystem.entity.Insurance;
-import com.codingshuttle.youtube.hospitalManagementSystem.entity.Patient;
-import com.codingshuttle.youtube.hospitalManagementSystem.repository.InsuranceRepository;
-import com.codingshuttle.youtube.hospitalManagementSystem.repository.PatientRepository;
+import com.hospitalManagementSystem.entity.Insurance;
+import com.hospitalManagementSystem.entity.Patient;
+import com.hospitalManagementSystem.repository.InsuranceRepository;
+import com.hospitalManagementSystem.repository.PatientRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

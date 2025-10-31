@@ -1,13 +1,11 @@
-package com.codingshuttle.youtube.hospitalManagementSystem.entity;
+package com.hospitalManagementSystem.entity;
 
 
-import com.codingshuttle.youtube.hospitalManagementSystem.entity.type.BloodGroupType;
+import com.hospitalManagementSystem.entity.type.BloodGroupType;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import org.hibernate.action.internal.OrphanRemovalAction;
-import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDate;

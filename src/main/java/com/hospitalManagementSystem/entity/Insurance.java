@@ -1,7 +1,6 @@
-package com.codingshuttle.youtube.hospitalManagementSystem.entity;
+package com.hospitalManagementSystem.entity;
 
 
-import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

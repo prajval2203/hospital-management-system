@@ -1,4 +1,4 @@
-package com.codingshuttle.youtube.hospitalManagementSystem.entity.type;
+package com.hospitalManagementSystem.entity.type;
 
 public enum BloodGroupType {
 
